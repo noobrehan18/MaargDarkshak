@@ -5,30 +5,30 @@ import { Quote } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Alex Johnson",
+    name: "Eminem",
     role: "Software Engineer",
-    avatar: "AJ",
+    avatar: "EM",
     content:
       "The LakshyaMentor platform helped me identify skill gaps and provided a clear roadmap to transition into a senior developer role. The personalized recommendations were spot on!",
   },
   {
-    name: "Sarah Williams",
+    name: "Arjun Das",
     role: "Marketing Graduate",
-    avatar: "SW",
+    avatar: "AD",
     content:
       "As a recent graduate, I was lost about which career path to pursue. This platform analyzed my strengths and connected me with mentors who guided me to find my perfect role.",
   },
   {
-    name: "Michael Chen",
+    name: "Vijay Sharma",
     role: "Career Switcher",
-    avatar: "MC",
+    avatar: "VS",
     content:
       "Switching from finance to tech seemed impossible until I used this platform. The AI-powered resume analysis and skill assessment helped me highlight my transferable skills.",
   },
   {
-    name: "Priya Patel",
+    name: "Leo Das",
     role: "Data Scientist",
-    avatar: "PP",
+    avatar: "LD",
     content:
       "The industry trends analysis feature kept me informed about emerging technologies in my field. This helped me focus my learning efforts and stay ahead of the curve.",
   },
