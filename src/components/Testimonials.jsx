@@ -9,7 +9,7 @@ const testimonials = [
     role: "Software Engineer",
     avatar: "EM",
     content:
-      "The LakshyaMentor platform helped me identify skill gaps and provided a clear roadmap to transition into a senior developer role. The personalized recommendations were spot on!",
+      "The MaargDarkshak platform helped me identify skill gaps and provided a clear roadmap to transition into a senior developer role. The personalized recommendations were spot on!",
   },
   {
     name: "Arjun Das",
