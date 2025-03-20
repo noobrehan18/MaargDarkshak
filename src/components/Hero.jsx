@@ -2,13 +2,74 @@
 
 import { motion } from "framer-motion"
 import { ChevronRight, BarChart2, Users, FileText, Briefcase, Award, TrendingUp } from "lucide-react"
+import Logo from "../assets/logo.png"; 
 
 export default function Hero() {
   return (
+
+
     <section className="relative bg-gradient-to-b from-primary/5 via-background to-background min-h-screen flex items-center overflow-hidden">
-        <div className="absolute top-4 left-4 z-10">
-         <div className="px-4 py-2 rounded-md bg-primary/10 text-primary font-bold text-xl"> LakshyaMentor</div>
+            {/* Navbar */}
+            <nav className="w-full bg-white shadow-md fixed top-0 left-0 right-0 z-20">
+        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+          {/* Logo */}
+          <div className="flex items-center space-x-3">
+            <img src={Logo} alt="LakshyaMentor Logo" className="h-15 w-10 object-contain" />
+            <span className="text-xl font-bold text-primary">MaargDarkshak</span>
+          </div>
+
+          {/* Navigation Links */}
+          <div className="hidden md:flex space-x-6 text-foreground">
+            <a
+              href="#features"
+              className="relative group cursor-pointer"
+            >
+              Features
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+            </a>
+            <a
+              href="#how-it-works"
+              className="relative group cursor-pointer"
+            >
+              How It Works
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+            </a>
+            <a
+              href="#testimonials"
+              className="relative group cursor-pointer"
+            >
+              Success Stories
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+            </a>
+            <a
+              href="#footer"
+              className="relative group cursor-pointer"
+            >
+              About Us
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+            </a>
+          </div>
+
+          {/* Login Button */}
+          <div className="flex gap-4">
+          <button className="px-5 py-2 border border-primary text-primary rounded-md 
+                     hover:bg-gradient-to-r from-blue-500 to-purple-500 
+                     hover:text-white hover:shadow-xl hover:scale-105 
+                     transition-all duration-300">
+                    Sign Up
+          </button>
+           <button className="px-5 py-2 border border-primary text-primary rounded-md 
+                     hover:bg-gradient-to-r from-green-500 to-teal-500 
+                     hover:text-white hover:shadow-xl hover:scale-105 
+                     transition-all duration-300">
+                     Login
+           </button>
         </div>
+
+        </div>
+      </nav>
+
+      
 
       <div className="container mx-auto px-4 py-24 md:py-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -155,22 +216,9 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-
-            <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-primary/20 rounded-full blur-xl" />
-            <div className="absolute -top-6 -left-6 w-32 h-32 bg-secondary/20 rounded-full blur-xl" />
           </motion.div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="w-full">
-          <path
-            fill="currentColor"
-            fillOpacity="0.05"
-            d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,224C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          ></path>
-        </svg>
-      </div>
       </div>
     </section>
   )
 }
-

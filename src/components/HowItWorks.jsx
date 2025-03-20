@@ -56,7 +56,7 @@ export default function HowItWorks() {
                           <Users className="h-5 w-5 text-primary" />
                         </div>
                         <div className="ml-4">
-                          <h3 className="font-semibold text-lg">LakshyaMentor Guidance System</h3>
+                          <h3 className="font-semibold text-lg">MaargDarkshak Guidance System</h3>
                           <p className="text-sm text-muted-foreground">Data Flow Visualization</p>
                         </div>
                       </div>

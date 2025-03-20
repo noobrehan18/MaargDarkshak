@@ -71,7 +71,7 @@ export default function Features() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Our AI mentor platform offers a comprehensive suite of tools to guide your career development
+            Our MaargDarkshak platform offers a comprehensive suite of tools to guide your career development
           </motion.p>
         </div>
 

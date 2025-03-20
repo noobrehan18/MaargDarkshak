@@ -2,11 +2,11 @@ import { Github, Twitter, Linkedin, Mail, ArrowRight } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-800 border-t border-border">
+    <footer id="footer" className="bg-white dark:bg-gray-800 border-t border-border">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h1 className="text-lg font-bold">LakshyaMentor</h1>
+            <h1 className="text-lg font-bold">MaargDarkshak</h1>
             <p className="text-muted-foreground">
               Personalized career guidance and professional development powered by AI.
             </p>
@@ -107,10 +107,9 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border mt-12 pt-6 text-center text-muted-foreground text-sm">
-          <p>© {new Date().getFullYear()} LakshyaMentor. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} MaargDarkshak. All rights reserved.</p>
         </div>
       </div>
     </footer>
   )
 }
-

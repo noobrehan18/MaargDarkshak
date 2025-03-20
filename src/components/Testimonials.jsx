@@ -67,7 +67,7 @@ export default function Testimonials() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            See how our LakshyaMentor platform has transformed careers and opened new opportunities
+            See how our MaargDarkshak platform has transformed careers and opened new opportunities
           </motion.p>
         </div>
 
