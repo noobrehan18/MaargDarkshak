@@ -111,7 +111,7 @@ export default function Hero() {
                       <div className="w-3 h-3 rounded-full bg-yellow-400"></div>
                       <div className="w-3 h-3 rounded-full bg-green-400"></div>
                     </div>
-                    <div className="mx-auto text-sm font-medium text-muted-foreground">Career Insights Platform</div>
+                    <div className="mx-auto text-sm font-medium text-muted-foreground">Individualized Career Insights Platform</div>
                   </div>
                 </div>
 
